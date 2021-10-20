@@ -19,5 +19,3 @@ export const my_alpha_number = (nbr) => {
     } while (nbr != 0)
     return minusIfNegative + reverseString(strNumber);
 }
-
-console.log(my_alpha_number(-1234))
